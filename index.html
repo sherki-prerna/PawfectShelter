@@ -3,8 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>PAWFECT SHELTER</title>
+  <!-- CSS only -->
+  <!---Google Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu">
+  <!--Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<!--Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+<!--css section-->
+<link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
@@ -12,65 +21,144 @@
   <section id="title">
 
     <!-- Nav Bar -->
+    <div class="container-fluid">
 
-
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">PAWFECT SHELTER</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active"  href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="adopt.html">Adopt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
 
 
     <!-- Title -->
 
-    <div>
+    <div class="row">
+      <div class="col-lg-6">
       <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <button type="button" class="btn btn-dark btn-lg"><img src="https://img.icons8.com/windows/32/null/mac-os.png"/>Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg"><img src="https://img.icons8.com/external-those-icons-fill-those-icons/24/null/external-Playstore-social-media-those-icons-fill-those-icons.png"/>Download</button>
+    
     </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
+    <div class="col-lg-6">
+      <img  class="title-image" src="images/iphone6.png" alt="iphone-mockup">
     </div>
-
+  </div>
+</div>
   </section>
 
 
   <!-- Features -->
 
   <section id="features">
+    <div class="row">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="feature-box col-lg-4"><img class="imgcs" src="https://img.icons8.com/bubbles/50/null/hearts.png"/><h3>Easy to use.</h3>
+      
+      <p>So easy to use, even your dog could do it.</p>
+    </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+    <div class="feature-box col-lg-4"><img class="imgc" src="https://img.icons8.com/ios-filled/50/null/goal--v1.png"/><h3>Elite Clientele</h3>
+      <p>We have all the dogs, the greatest dogs.</p>
+    </div>
+    
+    <div class="feature-box col-lg-4">
+     
+      <img class="imgc" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-approved-advertisement-tanah-basah-glyph-tanah-basah.png"/> <h3>Guaranteed to work.</h3>
+    <p>Every wag, purr, and cuddle starts with adoption. Find your match!</p>
+    </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+  </div>
+
+    
+
+    
+
+    
 
   </section>
 
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
-
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+  <section id="testimonial">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <h2>"The moment I saw Luna’s eyes, I knew she was meant to be part of my family. Best decision ever!"</h2>
+          <img class="testimonial-image" src="images/doggo.png" alt="Adopter with pet">
+          <em>Emma, California</em>
+        </div>
+  
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <h2>"I used to dream of belly rubs and treats—now, I get them every day! Thank you, Pawfect Shelter!"</h2>
+          <img class="testimonial-image" src="images/corgi.png" alt="Rescued dog happy">
+          <em>Buddy, Adopted in Texas</em>
+        </div>
+  
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <h2>"Volunteering here changed my life. Watching these animals find homes is the most rewarding experience!"</h2>
+          <img class="testimonial-image" src="images/vol.png" alt="Shelter volunteer with dog">
+          <em>Sarah, Shelter Volunteer</em>
+        </div>
+  
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <h2>"We adopted Bella, and now our home is filled with endless love and tail wags!"</h2>
+          <img class="testimonial-image" src="images/lab.png" alt="Family with adopted pet">
+          <em>The Johnsons, New York</em>
+        </div>
+      </div>
+  
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
+  
+  <!-- Bootstrap 5.2 JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A6hHkCJoFJ6Z1KbbhUAABvUpr4rIr5FfRvHAnP19+GpKuPiDzWArMkm6hzp4YLsi" crossorigin="anonymous"></script>
+  
 
-
-  <!-- Press -->
+  <!-- Press 
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+
+    
+
+
+    <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
-
+-->
 
   <!-- Pricing -->
 
@@ -79,30 +167,68 @@
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
+<div class="row">
+  <div class="pricing-column col-lg-4 colmd-6">
+    <div class="card">
+      <div class="card-header">
+        <h3>Donate</h3>
+      </div>
+      <div class="card-body">
+       
+    <h2>Donate Right now</h2>
+    <p>Donate your dog's toys, food and medical care</p>
+    <p>Every contribution makes a difference</p>
+    <p>Be a Lifesaver</p>
+    <button class="btn btn-lg btn-block btn-outline-dark"type="button">GO</button>
+      </div>
+    </div>
+  </div>   
+   
+<div class="pricing-column col-lg-4 col-md-6">
+  <div class="card">
+    <div class="card-header">
+      <h3>Volunteer</h3>
+    </div>
+    <div class="card-body">
+      <h2>Become a Volunteer</h2>
+  <p>Assist in their journey to a loving home</p>
+  <p>Walk dogs, Socialize cats, or Assist in events</p>
+  <p>Dedicated to saving and rehoming pets</p>
+  <button class="btn btn-lg btn-block btn-dark" type="button">GO</button>
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    </div>
+  </div>
+</div>
+    
+<div class="pricing-column col-lg-4">
+  <div class="card">
+    <div class="card-header">
+      <h3>Foster</h3>
+    </div>
+    <div class="card-body">
+      <h2>Become a Foster Parent</h2>
+  <p>Provide a Temporary Home</p>
+  <p>Short-Term, Big Impact</p>
+  <p>Support & Guidance Provided </p>
+ <!-- <p>Unlimited App Usage</p> -->
+  <button class="btn btn-lg btn-block btn-dark" type="button">GO</button>
+  
+    </div>
+  </div>
+</div>
+</div>
 
 
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
 
 
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    
+
+
+    
+    
+
+    
+    
 
   </section>
 
@@ -111,9 +237,9 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-heading">Your new best friend is waiting. Adopt, don’t shop!</h3>
+    <button class="btn btn-lg btn-dark"type="button"><img src="https://img.icons8.com/windows/32/null/mac-os.png"/>Download</button>
+    <button class="btn btn-lg btn-light"type="button"><img src="https://img.icons8.com/external-those-icons-fill-those-icons/24/null/external-Playstore-social-media-those-icons-fill-those-icons.png"/>Download</button>
 
   </section>
 
@@ -122,7 +248,7 @@
 
   <footer id="footer">
 
-    <p>© Copyright TinDog</p>
+    <p>© Copyright PawfectShelter</p>
 
   </footer>
 
