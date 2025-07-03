@@ -15,6 +15,10 @@
 
   
 <link rel="stylesheet" href="CSS/styles.css">
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+
 </head>
 
 <body>
@@ -77,6 +81,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
             </li>
             </ul>
         </div>
@@ -287,8 +294,26 @@
     <p>© Copyright PawfectShelter</p>
 
   </footer>
+<!-- Firebase Compatibility Version -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics-compat.js"></script>
 
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyDBObPOAS5J8sFDGmhK2BMi_EPJiO0L_h4",
+    authDomain: "pawfect-shelter.firebaseapp.com",
+    projectId: "pawfect-shelter",
+    storageBucket: "pawfect-shelter.appspot.com",
+    messagingSenderId: "631861757956",
+    appId: "1:631861757956:web:22453eb3cfc223b1bc8d51",
+    measurementId: "G-5Q29XZP0QS"
+  };
 
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="./app.js"></script>
 </body>
 
 </html>
