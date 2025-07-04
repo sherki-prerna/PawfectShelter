@@ -2,8 +2,6 @@
 
 Welcome to **Pawfect Shelter**, a modern, responsive pet adoption web application where users can explore adoptable pets, take a quick matchmaking quiz, and register/login using Firebase Authentication.
 
-![Pawfect Shelter Screenshot](images/screenshot.png)
-
 ---
 
 ## 💡 Features
@@ -49,6 +47,8 @@ This project's purpose was completely different when I first started creating it
 the website in my third year, I knew I wanted it to mean something, giving it a more purposeful and playful focus. So I kept the colors, the warmth, the playful gifs—but gave it purpose. 
 Now it's a platform dedicated to animal adoption and awareness.That’s why the overall vibe feels wholesome, playful, and bubbly. I wanted to try a different aesthetic, and I hope whoever 
 is reading this will be kind enough to appreciate the journey behind it.
+
+
 🐶 Give a paw, save a life 🐱 .....
 
 
